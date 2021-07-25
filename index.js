@@ -51,23 +51,19 @@
 //6 let block = document.getElementById('rules');
 // console.log(block);
 
-let target = document.getElementById('target');
+//7// let target = document.getElementById('target');
+// let block1 = document.getElementsByClassName('fc_rules');
+// for (const block1Element of block1) {
+//     block1Element.addEventListener ('click', function(e){
+//         target.innerText = e.target.innerText});
+//     block1Element.addEventListener ('click', function(){
+//         console.log ('bla')});
+// }
 
-let block1 = document.getElementsByClassName('fc_rules');
-for (const block1Element of block1) {
-
-    block1Element.addEventListener ('click', function(e){
-        target.innerText = e.target.innerText});
-    block1Element.addEventListener ('click', function(){
-        console.log ('bla')});
-
-    } /*выводит 0*/
 
 //8  let ulText =document.getElementsByTagName('li')
 // // console.log(ulText);
 // // for (let ulTextElement of ulText) {
 // //     ulTextElement.style.color = 'red';
 // // }
-
-
 
